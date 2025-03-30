@@ -1,4 +1,4 @@
-package com.neslihansezen.customer;
+package com.neslihansezen.crm.customer;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

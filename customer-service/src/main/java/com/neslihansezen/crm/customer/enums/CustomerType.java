@@ -1,4 +1,4 @@
-package com.neslihansezen.customer.enums;
+package com.neslihansezen.crm.customer.enums;
 
 public enum CustomerType {
     ENGINEER,

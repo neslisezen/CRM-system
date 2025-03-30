@@ -1,4 +1,4 @@
-package com.neslihansezen.customer.entity;
+package com.neslihansezen.crm.customer.entity;
 
 import jakarta.persistence.*;
 import lombok.*;
@@ -24,4 +24,7 @@ public abstract class Customer {
 
     @OneToMany(mappedBy = "customer", cascade = CascadeType.ALL)
     private List<Address> address;
+
+    @OneToMany(mappedBy = "customer")
+    private List<CustomerRole> customerRole;
 }

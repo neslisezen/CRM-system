@@ -1,6 +1,6 @@
-package com.neslihansezen.customer.entity;
+package com.neslihansezen.crm.customer.entity;
 
-import com.neslihansezen.customer.enums.AddressType;
+import com.neslihansezen.crm.customer.enums.AddressType;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;

@@ -26,6 +26,6 @@ public class Address {
     private AddressType addressType;
 
     @ManyToOne
-    @JoinColumn
+    @JoinColumn(name = "customer_id")
     private Customer customer;
 }
